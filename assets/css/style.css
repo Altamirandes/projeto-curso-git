@@ -19,16 +19,21 @@ body {
     line-height: 1.5em;
 }
 
+h3 {
+    margin-bottom: 0;
+}
+
 .container {
     max-width: 640px;
-    margin: 50px auto;
+    margin: 30px auto;
     background: #C0C0C0;
     padding: 20px;
     border-radius: 10px;
 }
 
 form table, th, td {
-    border: 1px solid black;
+    background: #fff;
+    text-align: left;
 }
 
 form label {
@@ -65,4 +70,13 @@ form button {
 
 form button:hover {
     background: var(--primary-color-dark);
+}
+
+.paragrafo-resultado, .bad {
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(255, 150, 150);
 }
